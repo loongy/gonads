@@ -1,0 +1,2 @@
+# gonads
+Monads for Go
