@@ -2,7 +2,7 @@
 
 Gonads allow you to chain sets of concurrent operations.
 
-```
+```go
 import "errors"
 import "github.com/mushu/gonads"
 import "log"
