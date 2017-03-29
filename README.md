@@ -14,6 +14,7 @@ func main() {
     return nil
   }).Then(func() error {
     log.Println("This happens 2nd")
+    return nil
   }).ThenAll(func() error {
     log.Println("This happens 3rd, 4th, or 5th")
     return nil
